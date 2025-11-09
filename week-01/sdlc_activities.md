@@ -24,11 +24,13 @@ QA Activities:
 QA Activities:
 1. Check if acceptance criteria is met.
 2. Validate delivered functionality during the review session.
+3. Identify risks and define test approach for the sprint
 
 ### **Sprint Retrospective:**
 QA Activities:
 1. Discuss what went well and what could improve in QA processes.
 2. Suggest optimizations.
+3. Create scripts for automation
 
 ---
 
