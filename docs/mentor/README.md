@@ -4,15 +4,19 @@ This directory contains guides and documentation specifically for **mentors** ru
 
 ## 📁 Contents
 
-### Setup Guides
+### One-Time Setup
 - **`setup-branch-protection.md`** - How to configure GitHub branch protection rules to enforce PR workflow
 
-### Future Mentor Guides (to be added as needed)
-- Grading rubrics for weekly exercises
-- Sample feedback templates
-- Common mentee challenges and solutions
+### Mentee Workflow Guides (Reference These in Feedback)
+- **`pr-workflow.md`** - Complete PR submission guide for mentees (reference when they have workflow issues)
+
+### Mentor Operations
+- **`reviewing-mentee-work.md`** - How to review PRs, provide feedback, handle violations, use Issues vs PR comments
+
+### Future Additions (to be added as needed)
 - Weekly mentor prep guides
 - Office hours tips
+- Advanced grading rubrics
 
 ## 📖 Main Mentor Resources
 
