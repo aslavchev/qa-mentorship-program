@@ -14,6 +14,33 @@ This guide explains how to submit your weekly work through Pull Requests (PRs). 
 
 ---
 
+## Git Commands: Modern vs Traditional
+
+**Modern Git (2.23+) introduced clearer commands:**
+
+### Switching Branches
+
+**Modern way (recommended):**
+```bash
+git switch main              # Switch to existing branch
+git switch -c new-branch     # Create and switch to new branch
+```
+
+**Traditional way (still works):**
+```bash
+git checkout main            # Switch to existing branch
+git checkout -b new-branch   # Create and switch to new branch
+```
+
+**Why modern commands are better:**
+- ✅ Clearer intent (`switch` for branches, `restore` for files)
+- ✅ Safer (won't accidentally modify files)
+- ✅ Easier to learn and remember
+
+**Note:** Both ways work! This guide uses `git checkout` for now, but you can use `git switch` instead.
+
+---
+
 ## Standard Weekly Workflow
 
 ### Step 1: Check for Open Issues
@@ -475,3 +502,13 @@ If you're stuck or unsure:
 ---
 
 **Remember**: Clean git workflow = Professional portfolio. Take your time to do it right! 🎯
+
+---
+
+**Last Updated:** November 13, 2024
+**For:** QA Fundamentals Mentees
+
+**Recent additions:**
+- Modern git commands section (`git switch` vs `git checkout`)
+- Clearer explanations of both traditional and modern workflows
+- Note: Both command styles work - use what you're comfortable with!
