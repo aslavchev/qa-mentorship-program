@@ -35,6 +35,26 @@ By the end of this program, your mentee will be able to:
 
 ---
 
+## 📊 Mentee Progress
+
+| Week | Topic | Status | Grade | PR | Merged |
+|------|-------|--------|-------|-----|---------|
+| 1 | QA Foundations | ✅ Complete | 85/100 | [#3](../../pull/3) | Nov 13, 2025 |
+| 2 | Test Levels | ✅ Complete | 82/100 | [#5](../../pull/5) | Nov 13, 2025 |
+| 3 | Functional Testing | ✅ Complete | 82/100 | [#7](../../pull/7) | Nov 17, 2025 |
+| 4 | Non-Functional Testing | ✅ Complete | 78/100 | [#8](../../pull/8) | Nov 27, 2025 |
+| 5 | Test Design (Basic) | 🔄 In Progress | - | - | - |
+| 6 | Test Design (Advanced) | ⏳ Pending | - | - | - |
+| 7 | Test Planning & Strategy | ⏳ Pending | - | - | - |
+| 8 | Test Case Management | ⏳ Pending | - | - | - |
+| 9 | Agile Testing | ⏳ Pending | - | - | - |
+| 10 | Defect Management | ⏳ Pending | - | - | - |
+| 11 | Python Basics | ⏳ Pending | - | - | - |
+
+**Progress:** 4/11 weeks complete (36%) | **Average Grade:** 81.75/100
+
+---
+
 ## 🗺️ 11-Week Curriculum Overview
 
 | Week | Topic | Focus | Key Deliverable |
