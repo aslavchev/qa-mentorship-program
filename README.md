@@ -101,79 +101,67 @@ Throughout the 11 weeks, your mentee will **progressively test the same applicat
 ## 📁 Repository Structure
 
 ```
-qa-fundamentals-11week/
+qa-fundamentals-11weeks/
 │
 ├── README.md (this file)
-├── progress-tracker.md
+├── SETUP.md (mentee getting started guide)
+├── CONTRIBUTING.md (submission guidelines)
+├── LICENSE (MIT)
 │
-├── week-01-qa-foundations/
-│   ├── tutorial.md
-│   ├── checklist.md
-│   ├── exercises.md
-│   └── resources.md
+├── .github/
+│   ├── pull_request_template.md
+│   └── ISSUE_TEMPLATE/
+│       ├── question.md
+│       └── bug-report.md
 │
-├── week-02-test-levels/
-│   ├── tutorial.md
-│   ├── checklist.md
-│   ├── exercises.md
-│   └── resources.md
-│
-├── [... weeks 3-11 follow same structure ...]
-│
-├── templates/
-│   ├── test-case-template.md
-│   ├── test-plan-template.md
-│   ├── test-strategy-template.md
-│   ├── bug-report-template.md
-│   ├── test-summary-report-template.md
-│   ├── traceability-matrix-template.md
-│   └── risk-assessment-template.md
+├── curriculum/
+│   ├── week-01-qa-foundations/
+│   │   ├── tutorial.md
+│   │   ├── checklist.md
+│   │   ├── exercises.md
+│   │   └── resources.md
+│   │
+│   ├── week-02-test-levels/
+│   │   └── [same structure]
+│   │
+│   ├── [... weeks 3-11 follow same structure ...]
+│   │
+│   └── templates/
+│       ├── test-case-template.md
+│       ├── test-plan-template.md
+│       ├── test-strategy-template.md
+│       ├── bug-report-template.md
+│       ├── test-summary-report-template.md
+│       ├── traceability-matrix-template.md
+│       └── risk-assessment-template.md
 │
 └── mentee-work/
-    ├── saucedemo-test-plan.md
-    ├── saucedemo-test-cases/
-    ├── saucedemo-bugs/
-    ├── test-design-documents/
-    └── python-scripts/
+    ├── week-01/
+    ├── week-02/
+    └── [... weekly submissions ...]
 ```
 
 ---
 
 ## 🚀 How to Use This Program
 
-### For Mentors:
-
-1. **Week Preparation (30 min before session):**
-   - Review the week's tutorial.md
-   - Prepare to discuss concepts
-   - Review mentee's completed exercises from previous week
-
-2. **Weekly Session (60 min):**
-   - Review previous week's checklist (10 min)
-   - Discuss new concepts from tutorial (20 min)
-   - Live demonstration or guided practice (20 min)
-   - Assign current week's exercises (10 min)
-
-3. **Between Sessions:**
-   - Answer questions via GitHub Issues or discussions
-   - Review submitted work via pull requests
-   - Provide feedback on deliverables
-
 ### For Mentees:
 
+**New to the program?** Start with [SETUP.md](SETUP.md) for initial setup instructions!
+
 1. **Start of Week:**
-   - Read `tutorial.md` (1-2 hours)
+   - Read `curriculum/week-XX-topic/tutorial.md` (2-3 hours)
    - Watch recommended videos in `resources.md`
-   - Review any templates needed
+   - Review templates in `curriculum/templates/`
 
 2. **Mid-Week:**
-   - Complete `exercises.md` (4-6 hours)
+   - Complete `exercises.md` (5-7 hours)
    - Apply concepts to SauceDemo project
-   - Document work in `mentee-work/` folder
+   - Document work in `mentee-work/week-XX/` folder
 
 3. **End of Week:**
    - Complete `checklist.md` items
-   - Submit work via Pull Request (see below)
+   - Submit work via Pull Request
    - Prepare questions for mentor session
 
 4. **Weekly Mentor Session:**
@@ -186,29 +174,28 @@ qa-fundamentals-11week/
 
 All weekly work must be submitted through **Pull Requests (PRs)** for review.
 
-**📘 Complete Guide**: See [docs/mentor/pr-workflow.md](docs/mentor/pr-workflow.md) for detailed instructions.
+**📘 Complete Guide**: See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed submission guidelines and quality standards.
 
-**Quick Start:**
+**Quick Workflow:**
 ```bash
-# Create branch, complete work, then:
-git checkout -b week-XX-work
-git add mentee-work/week-XX/
-git commit -m "Week XX: [description]"
-git push -u origin week-XX-work
+# Create branch for your week
+git checkout -b week-XX-your-name
 
-# Create PR assigned to mentor
-gh pr create --base main --head week-XX-work \
-  --title "Week XX: [Title]" \
-  --body "Week XX exercises completed" \
-  --assignee aslavchev
+# Complete exercises and commit
+git add mentee-work/week-XX/
+git commit -m "Week XX: [Topic] - [Your Name]"
+git push origin week-XX-your-name
+
+# Create Pull Request on GitHub
+# The PR template will guide you through the submission
 ```
 
-**Key Rules:**
-- ✅ Check for open issues BEFORE starting new week
-- ✅ Use hyphens in filenames (not underscores)
-- ✅ Write all content in English
-- ✅ Always assign PRs to @aslavchev
-- ✅ One PR = One concern (never mix corrections with new work)
+**Key Guidelines:**
+- ✅ Follow templates from `curriculum/templates/`
+- ✅ Use branch naming: `week-XX-your-name`
+- ✅ One PR per week
+- ✅ Fill out PR template completely
+- ✅ Review CONTRIBUTING.md for quality standards
 
 ---
 
@@ -363,28 +350,32 @@ This program is designed for **practical, hands-on QA learning** focusing on:
 
 ---
 
-**Program Version:** 1.0 (Complete)
-**Last Updated:** November 2024
+**Program Version:** 1.1 (Active Mentoring)
+**Last Updated:** November 2025
 **Content Status:** All 11 weeks complete with comprehensive tutorials, exercises, and resources
-**License:** Educational use only
+**License:** MIT - See [LICENSE](LICENSE) file for details
 
 ---
 
 ## Quick Links
 
-- [Week 1: QA Foundations & SDLC](week-01-qa-foundations/)
-- [Week 2: Test Levels](week-02-test-levels/)
-- [Week 3: Functional Testing Types](week-03-functional-testing/)
-- [Week 4: Non-Functional Testing](week-04-nonfunctional-testing/)
-- [Week 5: Test Design Techniques (Basic)](week-05-test-design-basic/)
-- [Week 6: Test Design Techniques (Advanced)](week-06-test-design-advanced/)
-- [Week 7: Test Planning & Strategy](week-07-test-planning/)
-- [Week 8: Test Case Design & Management](week-08-test-case-management/)
-- [Week 9: Agile Testing & Methodologies](week-09-agile-testing/)
-- [Week 10: Defect Management](week-10-defect-management/)
-- [Week 11: Python for Test Data & APIs](week-11-python-basics/)
-- [Templates](templates/)
-- [Progress Tracker](progress-tracker.md)
+### Getting Started
+- [Setup Guide](SETUP.md) - Initial setup for new mentees
+- [Contributing Guidelines](CONTRIBUTING.md) - How to submit work
+- [Templates](curriculum/templates/) - Professional QA templates
+
+### Weekly Curriculum
+- [Week 1: QA Foundations & SDLC](curriculum/week-01-qa-foundations/)
+- [Week 2: Test Levels](curriculum/week-02-test-levels/)
+- [Week 3: Functional Testing Types](curriculum/week-03-functional-testing/)
+- [Week 4: Non-Functional Testing](curriculum/week-04-nonfunctional-testing/)
+- [Week 5: Test Design Techniques (Basic)](curriculum/week-05-test-design-basic/)
+- [Week 6: Test Design Techniques (Advanced)](curriculum/week-06-test-design-advanced/)
+- [Week 7: Test Planning & Strategy](curriculum/week-07-test-planning/)
+- [Week 8: Test Case Design & Management](curriculum/week-08-test-case-management/)
+- [Week 9: Agile Testing & Methodologies](curriculum/week-09-agile-testing/)
+- [Week 10: Defect Management](curriculum/week-10-defect-management/)
+- [Week 11: Python for Test Data & APIs](curriculum/week-11-python-basics/)
 
 ---
 

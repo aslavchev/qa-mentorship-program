@@ -49,6 +49,9 @@ Thumbs.db
 .env
 .env.local
 
+# Mentor-only files (not for public repo)
+local/
+
 # Build artifacts
 *.pyc
 *.pyo
