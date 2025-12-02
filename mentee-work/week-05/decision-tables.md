@@ -1,12 +1,10 @@
 # Decision Tables – SauceDemo  
 
-## 1. Objective
-Create decision tables for SauceDemo to understand how different input combinations affect system behavior.
 
-## 2. Scenario Chosen  
+## Scenario Chosen  
 **Checkout Form Validation (First Name, Last Name, Zip Code)**  
 
-## 3. Conditions and Actions
+## Conditions and Actions
 
 ### Conditions
 1. **C1: First Name provided?** (Yes / No)  
@@ -17,7 +15,7 @@ Create decision tables for SauceDemo to understand how different input combinati
 1. **A1: Checkout continues successfully**
 2. **A2: Error message shown**
 
-## 4. Full Decision Table
+## Full Decision Table
 
 | Rule | First Name | Last Name | Zip Code | Expected Result |
 |------|------------|-----------|----------|-----------------|
@@ -27,7 +25,7 @@ Create decision tables for SauceDemo to understand how different input combinati
 | R4 | Yes | Yes | No | Error: Zip Code is required |
 | R5 | No | No | No | Error: All fields are required |
 
-## 5. Reduced/Optimized Decision Table
+## Reduced/Optimized Decision Table
 (no duplicate outcomes — each rule unique)
 
 | Test Case | C1 First Name | C2 Last Name | C3 Zip Code | Result |
@@ -38,7 +36,7 @@ Create decision tables for SauceDemo to understand how different input combinati
 | TC4 | Valid | Valid | Empty | Error: Zip Code required |
 | TC5 | Empty | Empty | Empty | Error: All fields required |
 
-## 6. Test Cases Derived from Decision Table
+## Test Cases Derived from Decision Table
 
 ### **TC1 – All Valid**
 - First Name: "Kamen"
@@ -69,9 +67,3 @@ Create decision tables for SauceDemo to understand how different input combinati
 - Last Name: ""  
 - Zip: ""  
 **Expected:** Error message: *"Error: First Name is required"* (this is the first missing field)
-
-## 7. Summary
-- Created a decision table with 3 input conditions and 5 rules.
-- Converted rules into clear test cases.
-- Used real behavior from SauceDemo checkout validation.
-- Followed the Week 5 structured method.

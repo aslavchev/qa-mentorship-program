@@ -7,8 +7,6 @@ Apply Equivalence Partitioning (EP) to input fields in SauceDemo.
 - Login form (username & password)
 - Checkout form (first name, last name, postal code)
 
----
-
 # Login Form — Username
 
 ## Partitions
@@ -25,8 +23,6 @@ Apply Equivalence Partitioning (EP) to input fields in SauceDemo.
 - EP-3: `wrong_user` → invalid credentials  
 - EP-4: `""` → username required  
 
----
-
 # Login Form — Password
 
 ## Partitions
@@ -35,8 +31,6 @@ Apply Equivalence Partitioning (EP) to input fields in SauceDemo.
 | Valid password | `secret_sauce` | Success (if username valid) |
 | Invalid | `abc123` | Invalid credentials |
 | Empty | `""` | Error: Password required |
-
----
 
 # Checkout Form
 
@@ -57,8 +51,6 @@ Fields:
 - EP-11: First name empty → Error  
 - EP-12: Last name empty → Error  
 - EP-13: Zip empty → Error  
-
----
 
 ## Summary
 EP identifies logical input groups and reduces test cases while ensuring coverage.
