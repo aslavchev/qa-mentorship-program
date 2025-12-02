@@ -43,7 +43,7 @@ By the end of this program, your mentee will be able to:
 | 2 | Test Levels | ✅ Complete | 82/100 | [#5](../../pull/5) | Nov 13, 2025 |
 | 3 | Functional Testing | ✅ Complete | 82/100 | [#7](../../pull/7) | Nov 17, 2025 |
 | 4 | Non-Functional Testing | ✅ Complete | 78/100 | [#8](../../pull/8) | Nov 27, 2025 |
-| 5 | Test Design (Basic) | 🔄 In Progress | - | - | - |
+| 5 | Test Design (Basic) | ✅ Complete | 87/100 | [#9](../../pull/9) | Dec 2, 2025 |
 | 6 | Test Design (Advanced) | ⏳ Pending | - | - | - |
 | 7 | Test Planning & Strategy | ⏳ Pending | - | - | - |
 | 8 | Test Case Management | ⏳ Pending | - | - | - |
@@ -51,7 +51,7 @@ By the end of this program, your mentee will be able to:
 | 10 | Defect Management | ⏳ Pending | - | - | - |
 | 11 | Python Basics | ⏳ Pending | - | - | - |
 
-**Progress:** 4/11 weeks complete (36%) | **Average Grade:** 81.75/100
+**Progress:** 5/11 weeks complete (45%) | **Average Grade:** 82.8/100
 
 ---
 
