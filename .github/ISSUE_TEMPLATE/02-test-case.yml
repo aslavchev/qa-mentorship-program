@@ -1,7 +1,7 @@
 name: 🧪 Test Case
 description: Create a test case for SauceDemo (Week 8+)
 title: "[TEST] "
-labels: ["test:manual"]
+labels: ["test:ui"]
 body:
   - type: markdown
     attributes:
@@ -28,14 +28,16 @@ body:
       required: true
 
   - type: dropdown
-    id: priority
+    id: severity
     attributes:
-      label: Priority
+      label: Severity
+      description: Impact on product (QA sets this)
       options:
-        - Critical
-        - High
-        - Medium
-        - Low
+        - S0 - Blocker (can't test, blocks release)
+        - S1 - Critical (prod down, data loss)
+        - S2 - Major (key feature broken)
+        - S3 - Minor (edge case, workaround exists)
+        - S4 - Trivial (cosmetic, polish)
     validations:
       required: true
 
@@ -60,11 +62,13 @@ body:
       label: Test Type
       description: Select primary test type
       options:
-        - Functional
+        - UI
+        - API
+        - E2E
         - Regression
         - Smoke
         - Integration
-        - E2E
+        - Performance
     validations:
       required: true
 
@@ -145,5 +149,6 @@ body:
         ---
         **After creating this issue:**
         - Add to "SauceDemo Test Suite" GitHub Project
-        - Set custom fields: Test Type, Test Suite, Automation Status
+        - Set custom fields: Test Type, Test Suite, Severity, Automation Status, Last Run Status
+        - Add severity label: `severity:s0-blocker`, `severity:s1-critical`, etc.
         - Link to related requirements/stories

@@ -84,11 +84,11 @@ Convert your test cases into GitHub issues for tracking and management using Git
    - Use test case template for each issue
    - Title format: `[TEST] Brief description`
    - Add appropriate labels:
-     - Test type: `test:manual`, `test:regression`, `test:smoke`, etc.
-     - Priority: `priority:critical`, `priority:high`, `priority:medium`, `priority:low`
+     - Test type: `test:ui`, `test:api`, `test:e2e`, `test:regression`, `test:smoke`, `test:integration`, `test:performance`
+     - Severity: `severity:s0-blocker`, `severity:s1-critical`, `severity:s2-major`, `severity:s3-minor`, `severity:s4-trivial`
    - Add to "SauceDemo Test Suite" project
 4. Organize in GitHub Project:
-   - Set custom fields: Test Type, Test Suite, Module, Automation Status
+   - Set custom fields: Test Type, Test Suite, Severity, Module, Automation Status
    - Set Last Run Status to "Not Run"
 
 **Part 2: Explore Project Views (10 min)**
@@ -106,7 +106,7 @@ Convert your test cases into GitHub issues for tracking and management using Git
 Create documentation with:
 - Total test cases created
 - Breakdown by module (Login: X, Checkout: Y, etc.)
-- Breakdown by priority
+- Breakdown by severity (S0-S4)
 - Screenshots of:
   - Test Inventory view
   - Regression Suite board
@@ -128,15 +128,16 @@ Save as `mentee-work/week-08/test-management-organization.md` including:
 - Save time by using consistent formatting
 
 **Label Strategy:**
-- Every test should have: 1 test type + 1 priority + optional suite labels
-- Example: `test:manual`, `test:regression`, `priority:high`
+- Every test should have: 1 test type + 1 severity
+- Example: `test:ui`, `test:regression`, `severity:s2-major`
 
 **Custom Fields:**
-- Test Type: Manual (most of yours), Automated (future), Hybrid
-- Test Suite: Regression (rerun often), Smoke (quick checks), Full (everything)
+- Test Type: UI, API, E2E, Regression, Smoke, Integration, Performance
+- Test Suite: Regression, Smoke, Full, Sanity, Exploratory
+- Severity: S0-Blocker, S1-Critical, S2-Major, S3-Minor, S4-Trivial
 - Module: Login, Inventory, Cart, Checkout, User Account, Navigation
-- Automation Status: Not Automated (start here)
-- Last Run Status: Not Run (will update when executing tests)
+- Automation Status: Not Automated, In Progress, Automated
+- Last Run Status: Not Run, Pass, Fail, Blocked, Skipped
 
 **Reference:**
 - Curriculum template: `curriculum/templates/test-case-template.md`
