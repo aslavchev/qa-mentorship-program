@@ -743,34 +743,48 @@ Convert your test cases into GitHub issues for tracking and management using Git
 
 ### Instructions
 
-**Part 1: Create Test Case Issues (40 min)**
+> **📋 Workflow:** Manually create 5-10 test cases to learn the process, then contact mentor to create automation script for remaining tests.
+
+**Part 1: Manual Practice - Create 5-10 Test Case Issues (20 min)**
 
 1. Navigate to: https://github.com/aslavchev/qa-fundamentals-11weeks/issues/new/choose
 2. Select **"Test Case"** template
-3. Convert your test cases from Exercises 1-5 into GitHub issues:
-   - Use test case template for each issue
+3. **Manually convert 5-10 diverse test cases** (select from different modules):
+   - 2 Login tests (1 positive, 1 negative)
+   - 2 Cart tests
+   - 2 Checkout tests (including the E2E smoke test)
+   - 3-4 additional tests of your choice
+4. For each issue:
+   - Use test case template
    - Title format: `[TEST] Brief description`
    - Add appropriate labels:
      - Test type: `test:ui`, `test:api`, `test:e2e`, `test:regression`, `test:smoke`, `test:integration`, `test:performance`
      - Severity: `severity:s0-blocker`, `severity:s1-critical`, `severity:s2-major`, `severity:s3-minor`, `severity:s4-trivial`
    - Add to "SauceDemo Test Suite" project
-4. Organize in GitHub Project:
    - Set custom fields: Test Type, Test Suite, Severity, Module, Automation Status
    - Set Last Run Status to "Not Run"
 
-**Part 2: Explore Project Views (10 min)**
+**Part 2: Automate Remaining Tests - Contact Mentor (20 min)**
 
-1. Open "SauceDemo Test Suite" GitHub Project
-2. Explore views:
+5. **📞 Contact your mentor** - you'll pair program to create a Python/Bash script that:
+   - Parses your markdown test cases (from Exercise 1)
+   - Bulk-creates remaining 40+ GitHub Issues using `gh` CLI
+   - Automatically sets labels and custom fields
+   - **Learning goal:** Test automation + API scripting (preview of Week 11 Python)
+
+**Part 3: Explore Project Views (10 min)**
+
+6. Open "SauceDemo Test Suite" GitHub Project
+7. Explore views:
    - **Test Inventory:** See all test cases organized by module
    - **Regression Suite:** Board view of regression tests
    - **Automation Backlog:** Which tests need automation
    - **Test Execution Tracker:** Track test execution status
-3. Practice filtering and sorting
+8. Practice filtering and sorting
 
-**Part 3: Document Setup (10 min)**
+**Part 4: Document Setup (10 min)**
 
-Create documentation with:
+9. Create documentation with:
 - Total test cases created
 - Breakdown by module (Login: X, Checkout: Y, etc.)
 - Breakdown by severity (S0-S4)
@@ -811,12 +825,13 @@ Save as `mentee-work/week-08/test-management-organization.md` including:
 - GitHub Projects: Built-in test management, free alternative to TestRail
 
 ### Success Criteria
-- ✅ At least 10-15 test cases created as GitHub issues
-- ✅ All issues properly labeled
-- ✅ All issues added to GitHub Project
+- ✅ 5-10 test cases manually created as GitHub issues (practice)
+- ✅ Automation script created with mentor to import remaining 40+ tests
+- ✅ All 50+ test cases in GitHub Issues with proper labels
+- ✅ All issues added to "SauceDemo Test Suite" GitHub Project
 - ✅ Custom fields set for all issues
 - ✅ Screenshots captured
-- ✅ Reflection on benefits written
+- ✅ Reflection on benefits of automation + test management tools written
 
 ---
 
