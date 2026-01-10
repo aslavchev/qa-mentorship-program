@@ -1,6 +1,10 @@
 # BDD Scenarios – SauceDemo
 
-## Feature: User Authentication
+### Feature: User Authentication
+  As a registered user
+  I want to securely log in and log out
+  So that I can access products and manage my shopping cart
+
 
 ### Scenario 1: Successful login with valid credentials
 Given I am on the SauceDemo login page
@@ -32,7 +36,7 @@ Given I am on the SauceDemo login page
 When I enter "' OR '1'='1" in the username field
 And I enter "' OR '1'='1" in the password field
 And I click the LOGIN button
-Then I should see an error message
+Then I should see error "Epic sadface: Username and password do not match any user in this service"
 And I should not be logged in
 
 ### Scenario 5: User can logout successfully
@@ -44,6 +48,10 @@ Then I should be redirected to the login page
 And I should no longer have an active session
 
 ### Feature: Product Browsing
+  As a shopper
+  I want to browse products and view product details
+  So that I can decide what to purchase
+
 
 ### Scenario 6: View all products on inventory page
 Given I am logged in as "standard_user"
@@ -65,6 +73,10 @@ Then I should be navigated to the product details page
 And I should see product name, description, price, and image
 
 ### Feature: Shopping Cart
+  As a shopper
+  I want to add and remove items from my cart
+  So that I can manage what I plan to buy before checkout
+
 
 ### Scenario 9: Add product to cart from inventory page
 Given I am logged in as "standard_user"
@@ -92,6 +104,10 @@ When I click the Checkout button
 Then I should be redirected to the checkout information page
 
 ### Feature: Checkout
+  As a shopper
+  I want to complete checkout with my personal information
+  So that I can place an order successfully
+
 
 ### Scenario 13: Checkout with valid information
 Given I have items in my cart

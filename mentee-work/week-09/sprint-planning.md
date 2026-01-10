@@ -130,6 +130,22 @@ Enable users to log in and manage their shopping cart (add and remove items).
 - **Planned Testing Hours:** 42  
 - **Target Velocity:** 20 story points
 
+## Stories Deferred from Sprint 1
+
+The following stories were intentionally not selected for this sprint:
+
+- **US-004: Checkout Process (13 story points)**  
+  Deferred because it is a large story and depends on successful completion of US-001 (Login) and US-002 (Add to Cart).
+
+- **US-006: View Product Details (3 story points)**  
+  Lower priority and does not impact core shopping flow.
+
+- **US-007: Search Products (8 story points)**  
+  Low business priority and outside current sprint goal.
+
+This helps the team focus on foundational functionality and reduces delivery risk.
+
+
 ---
 
 ## Notes

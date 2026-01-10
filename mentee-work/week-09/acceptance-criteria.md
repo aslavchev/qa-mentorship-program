@@ -164,10 +164,11 @@
 
 ## INVEST Validation
 
-| User Story | Independent | Negotiable | Valuable | Estimable | Small | Testable |
-|-----------|------------|------------|----------|-----------|-------|----------|
-| User Login | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Add Items to Cart | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Product Sorting | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Checkout Process | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Remove Items from Cart | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| User Story | Independent | Negotiable | Valuable | Estimable | Small | Testable | Why |
+|-----------|-------------|------------|----------|-----------|-------|----------|-----|
+| User Login | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Login can be tested independently without Cart or Checkout functionality |
+| Add Items to Cart | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Cart functionality depends only on login and delivers direct business value |
+| Product Sorting | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Sorting is isolated UI behavior and easy to estimate and test |
+| Checkout Process | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Checkout completes the purchase flow and has clear validation rules |
+| Remove Items from Cart | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Removal logic is independent and testable without checkout |
+
