@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-08T15:59:32",
+    "total_tests": 60,
+    "generator": "test_data_master.py",
+    "application": "SauceDemo",
+    "module": "Checkout"
+  },
+  "tests": [
+    {
+      "test_id": "TC-CHECKOUT-001",
+      "category": "Random",
+      "first_name": "Steven",
+      "last_name": "Taylor",
+      "zip_code": "60097",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-002",
+      "category": "Random",
+      "first_name": "Matthew",
+      "last_name": "Thomas",
+      "zip_code": "52997",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-003",
+      "category": "Random",
+      "first_name": "Ashley",
+      "last_name": "Casey",
+      "zip_code": "33866",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-004",
+      "category": "Random",
+      "first_name": "Veronica",
+      "last_name": "Glass",
+      "zip_code": "32928",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-005",
+      "category": "Random",
+      "first_name": "Kelly",
+      "last_name": "Simmons",
+      "zip_code": "63958",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-006",
+      "category": "Random",
+      "first_name": "Valerie",
+      "last_name": "Rivera",
+      "zip_code": "78304",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-007",
+      "category": "Random",
+      "first_name": "Kelly",
+      "last_name": "Nguyen",
+      "zip_code": "90768",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-008",
+      "category": "Random",
+      "first_name": "James",
+      "last_name": "Cunningham",
+      "zip_code": "72132",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-009",
+      "category": "Random",
+      "first_name": "John",
+      "last_name": "Zamora",
+      "zip_code": "20900",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-010",
+      "category": "Random",
+      "first_name": "Catherine",
+      "last_name": "Short",
+      "zip_code": "02601",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-011",
+      "category": "Random",
+      "first_name": "Matthew",
+      "last_name": "Sanchez",
+      "zip_code": "12707",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-012",
+      "category": "Random",
+      "first_name": "Amy",
+      "last_name": "Mckenzie",
+      "zip_code": "37059",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-013",
+      "category": "Random",
+      "first_name": "Eric",
+      "last_name": "Anderson",
+      "zip_code": "28982",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-014",
+      "category": "Random",
+      "first_name": "Kristine",
+      "last_name": "Shaw",
+      "zip_code": "31799",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-015",
+      "category": "Random",
+      "first_name": "Scott",
+      "last_name": "Ford",
+      "zip_code": "11026",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-016",
+      "category": "Random",
+      "first_name": "Zachary",
+      "last_name": "Johnson",
+      "zip_code": "24683",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-017",
+      "category": "Random",
+      "first_name": "Jennifer",
+      "last_name": "Bruce",
+      "zip_code": "58924",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-018",
+      "category": "Random",
+      "first_name": "Clinton",
+      "last_name": "Campbell",
+      "zip_code": "83163",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-019",
+      "category": "Random",
+      "first_name": "Andrew",
+      "last_name": "Parker",
+      "zip_code": "57391",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-020",
+      "category": "Random",
+      "first_name": "Evelyn",
+      "last_name": "Adams",
+      "zip_code": "53397",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-021",
+      "category": "Random",
+      "first_name": "Todd",
+      "last_name": "Smith",
+      "zip_code": "25040",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-022",
+      "category": "Random",
+      "first_name": "John",
+      "last_name": "Mayer",
+      "zip_code": "77176",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-023",
+      "category": "Random",
+      "first_name": "Rachel",
+      "last_name": "Kane",
+      "zip_code": "08503",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-024",
+      "category": "Random",
+      "first_name": "Melissa",
+      "last_name": "Gallegos",
+      "zip_code": "79738",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-025",
+      "category": "Random",
+      "first_name": "Jose",
+      "last_name": "Murphy",
+      "zip_code": "23705",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-026",
+      "category": "Random",
+      "first_name": "Brandon",
+      "last_name": "Austin",
+      "zip_code": "48095",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-027",
+      "category": "Random",
+      "first_name": "Tyler",
+      "last_name": "Lopez",
+      "zip_code": "49049",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-028",
+      "category": "Random",
+      "first_name": "Christopher",
+      "last_name": "Barry",
+      "zip_code": "15655",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-029",
+      "category": "Random",
+      "first_name": "Jeffrey",
+      "last_name": "Phillips",
+      "zip_code": "87614",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-030",
+      "category": "Random",
+      "first_name": "Kathleen",
+      "last_name": "Jackson",
+      "zip_code": "51151",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-031",
+      "category": "Random",
+      "first_name": "Brian",
+      "last_name": "Gaines",
+      "zip_code": "60193",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-032",
+      "category": "Random",
+      "first_name": "Laura",
+      "last_name": "Jackson",
+      "zip_code": "74436",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-033",
+      "category": "Random",
+      "first_name": "Michael",
+      "last_name": "Tran",
+      "zip_code": "65679",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-034",
+      "category": "Random",
+      "first_name": "Melanie",
+      "last_name": "Martin",
+      "zip_code": "45859",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-035",
+      "category": "Random",
+      "first_name": "Christina",
+      "last_name": "Ellis",
+      "zip_code": "47510",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-036",
+      "category": "Random",
+      "first_name": "Sarah",
+      "last_name": "Cook",
+      "zip_code": "92307",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-037",
+      "category": "Random",
+      "first_name": "Meagan",
+      "last_name": "Hampton",
+      "zip_code": "07148",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-038",
+      "category": "Random",
+      "first_name": "Kari",
+      "last_name": "Oliver",
+      "zip_code": "41346",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-039",
+      "category": "Random",
+      "first_name": "Scott",
+      "last_name": "Matthews",
+      "zip_code": "41027",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-040",
+      "category": "Random",
+      "first_name": "John",
+      "last_name": "Webster",
+      "zip_code": "84029",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-041",
+      "category": "Random",
+      "first_name": "Karen",
+      "last_name": "Moore",
+      "zip_code": "83157",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-042",
+      "category": "Random",
+      "first_name": "Christina",
+      "last_name": "Hunter",
+      "zip_code": "46901",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-043",
+      "category": "Random",
+      "first_name": "Ashley",
+      "last_name": "Moon",
+      "zip_code": "94668",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-044",
+      "category": "Random",
+      "first_name": "Dominic",
+      "last_name": "Lee",
+      "zip_code": "06346",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-045",
+      "category": "Random",
+      "first_name": "George",
+      "last_name": "Medina",
+      "zip_code": "36489",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-046",
+      "category": "Random",
+      "first_name": "Mary",
+      "last_name": "Rodriguez",
+      "zip_code": "42389",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-047",
+      "category": "Random",
+      "first_name": "Amanda",
+      "last_name": "Preston",
+      "zip_code": "64650",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-048",
+      "category": "Random",
+      "first_name": "Heather",
+      "last_name": "Benton",
+      "zip_code": "50697",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-049",
+      "category": "Random",
+      "first_name": "Eric",
+      "last_name": "Taylor",
+      "zip_code": "22133",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-050",
+      "category": "Random",
+      "first_name": "Scott",
+      "last_name": "Ramirez",
+      "zip_code": "01721",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-001",
+      "category": "Edge Case",
+      "first_name": "A",
+      "last_name": "B",
+      "zip_code": "12345",
+      "expected_result": "Order placed successfully",
+      "priority": "P1",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-002",
+      "category": "Edge Case",
+      "first_name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "last_name": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "zip_code": "99999",
+      "expected_result": "Order placed successfully",
+      "priority": "P1",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-003",
+      "category": "Edge Case",
+      "first_name": "John-Paul",
+      "last_name": "O'Brien",
+      "zip_code": "12345",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-004",
+      "category": "Edge Case",
+      "first_name": "María",
+      "last_name": "José",
+      "zip_code": "90210",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-005",
+      "category": "Edge Case",
+      "first_name": "John Paul",
+      "last_name": "Van Der Berg",
+      "zip_code": "12345",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-006",
+      "category": "Edge Case",
+      "first_name": "François",
+      "last_name": "Müller",
+      "zip_code": "12345",
+      "expected_result": "Order placed successfully",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-007",
+      "category": "Edge Case",
+      "first_name": "北京",
+      "last_name": "东京",
+      "zip_code": "12345",
+      "expected_result": "Error (expected): Invalid characters",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-008",
+      "category": "Edge Case",
+      "first_name": "John123",
+      "last_name": "Doe456",
+      "zip_code": "12345",
+      "expected_result": "Error (expected): Numbers not allowed",
+      "priority": "P2",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-009",
+      "category": "Edge Case",
+      "first_name": "",
+      "last_name": "Doe",
+      "zip_code": "12345",
+      "expected_result": "Error: First Name is required",
+      "priority": "P1",
+      "status": "Not Executed"
+    },
+    {
+      "test_id": "TC-CHECKOUT-EDGE-010",
+      "category": "Edge Case",
+      "first_name": "John",
+      "last_name": "",
+      "zip_code": "12345",
+      "expected_result": "Error: Last Name is required",
+      "priority": "P1",
+      "status": "Not Executed"
+    }
+  ]
+}

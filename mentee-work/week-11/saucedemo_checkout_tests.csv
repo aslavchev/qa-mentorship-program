@@ -1,0 +1,61 @@
+test_id,category,first_name,last_name,zip_code,expected_result,priority,status
+TC-CHECKOUT-001,Random,Steven,Taylor,60097,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-002,Random,Matthew,Thomas,52997,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-003,Random,Ashley,Casey,33866,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-004,Random,Veronica,Glass,32928,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-005,Random,Kelly,Simmons,63958,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-006,Random,Valerie,Rivera,78304,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-007,Random,Kelly,Nguyen,90768,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-008,Random,James,Cunningham,72132,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-009,Random,John,Zamora,20900,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-010,Random,Catherine,Short,02601,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-011,Random,Matthew,Sanchez,12707,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-012,Random,Amy,Mckenzie,37059,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-013,Random,Eric,Anderson,28982,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-014,Random,Kristine,Shaw,31799,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-015,Random,Scott,Ford,11026,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-016,Random,Zachary,Johnson,24683,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-017,Random,Jennifer,Bruce,58924,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-018,Random,Clinton,Campbell,83163,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-019,Random,Andrew,Parker,57391,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-020,Random,Evelyn,Adams,53397,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-021,Random,Todd,Smith,25040,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-022,Random,John,Mayer,77176,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-023,Random,Rachel,Kane,08503,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-024,Random,Melissa,Gallegos,79738,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-025,Random,Jose,Murphy,23705,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-026,Random,Brandon,Austin,48095,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-027,Random,Tyler,Lopez,49049,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-028,Random,Christopher,Barry,15655,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-029,Random,Jeffrey,Phillips,87614,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-030,Random,Kathleen,Jackson,51151,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-031,Random,Brian,Gaines,60193,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-032,Random,Laura,Jackson,74436,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-033,Random,Michael,Tran,65679,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-034,Random,Melanie,Martin,45859,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-035,Random,Christina,Ellis,47510,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-036,Random,Sarah,Cook,92307,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-037,Random,Meagan,Hampton,07148,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-038,Random,Kari,Oliver,41346,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-039,Random,Scott,Matthews,41027,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-040,Random,John,Webster,84029,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-041,Random,Karen,Moore,83157,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-042,Random,Christina,Hunter,46901,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-043,Random,Ashley,Moon,94668,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-044,Random,Dominic,Lee,06346,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-045,Random,George,Medina,36489,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-046,Random,Mary,Rodriguez,42389,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-047,Random,Amanda,Preston,64650,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-048,Random,Heather,Benton,50697,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-049,Random,Eric,Taylor,22133,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-050,Random,Scott,Ramirez,01721,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-EDGE-001,Edge Case,A,B,12345,Order placed successfully,P1,Not Executed
+TC-CHECKOUT-EDGE-002,Edge Case,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,99999,Order placed successfully,P1,Not Executed
+TC-CHECKOUT-EDGE-003,Edge Case,John-Paul,O'Brien,12345,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-EDGE-004,Edge Case,María,José,90210,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-EDGE-005,Edge Case,John Paul,Van Der Berg,12345,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-EDGE-006,Edge Case,François,Müller,12345,Order placed successfully,P2,Not Executed
+TC-CHECKOUT-EDGE-007,Edge Case,北京,东京,12345,Error (expected): Invalid characters,P2,Not Executed
+TC-CHECKOUT-EDGE-008,Edge Case,John123,Doe456,12345,Error (expected): Numbers not allowed,P2,Not Executed
+TC-CHECKOUT-EDGE-009,Edge Case,,Doe,12345,Error: First Name is required,P1,Not Executed
+TC-CHECKOUT-EDGE-010,Edge Case,John,,12345,Error: Last Name is required,P1,Not Executed
