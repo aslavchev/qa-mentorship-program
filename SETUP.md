@@ -8,8 +8,122 @@ Welcome to the 11-Week QA Fundamentals Program! Follow these steps to get set up
 
 - **GitHub Account** - Create at [github.com](https://github.com)
 - **Git Installed** - Download from [git-scm.com](https://git-scm.com)
+- **Git Bash** (Windows users) - Included with Git installation (see setup below)
 - **Text Editor** - VS Code recommended ([code.visualstudio.com](https://code.visualstudio.com))
 - **Web Browser** - Chrome or Firefox preferred
+
+---
+
+## 💻 Installing Git Bash (Windows Users)
+
+**What is Git Bash?**
+Git Bash provides a Unix-like command-line environment on Windows, making git commands and terminal work easier and consistent across operating systems.
+
+### Installation Steps:
+
+**1. Download Git for Windows**
+- Visit: [git-scm.com/download/win](https://git-scm.com/download/win)
+- Download the latest version (automatically detects 32-bit or 64-bit)
+
+**2. Run the Installer**
+- Double-click the downloaded `.exe` file
+- Click "Next" through the welcome screens
+
+**3. Important Installation Options:**
+
+**Select Components:**
+- ✅ Git Bash Here (allows right-click in folders to open Git Bash)
+- ✅ Git GUI Here (optional, for visual interface)
+- ✅ Associate .git* configuration files with default text editor
+
+**Choosing Default Editor:**
+- Select **"Use Visual Studio Code as Git's default editor"** (if VS Code installed)
+- Or select **"Use Vim"** (default, advanced users)
+- Or **"Use Notepad++"** (simple option)
+
+**Adjusting PATH Environment:**
+- ✅ Select **"Git from the command line and also from 3rd-party software"** (RECOMMENDED)
+- This allows git commands in both Git Bash and Windows Command Prompt
+
+**Choosing HTTPS Transport Backend:**
+- ✅ Select **"Use the OpenSSL library"** (default, recommended)
+
+**Configuring Line Ending Conversions:**
+- ✅ Select **"Checkout Windows-style, commit Unix-style line endings"** (recommended for Windows)
+
+**Configuring Terminal Emulator:**
+- ✅ Select **"Use MinTTY (the default terminal of MSYS2)"** (RECOMMENDED)
+- Provides better terminal experience than Windows Console
+
+**Default Behavior of `git pull`:**
+- ✅ Select **"Default (fast-forward or merge)"** (recommended)
+
+**Credential Helper:**
+- ✅ Select **"Git Credential Manager"** (stores passwords securely)
+
+**Extra Options:**
+- ✅ Enable file system caching (improves performance)
+- ✅ Enable symbolic links (if needed)
+
+**4. Complete Installation**
+- Click "Install"
+- Wait for installation to complete (~1-2 minutes)
+- Click "Finish"
+
+**5. Verify Installation**
+
+Open Git Bash:
+- **Option 1:** Start Menu → Search "Git Bash" → Click "Git Bash"
+- **Option 2:** Right-click in any folder → "Git Bash Here"
+
+Test git:
+```bash
+git --version
+```
+
+Expected output: `git version 2.xx.x.windows.x`
+
+---
+
+## 🍎 For Mac Users
+
+Git is usually pre-installed. Verify:
+```bash
+git --version
+```
+
+If not installed:
+```bash
+# Install Homebrew first (if not installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install git
+brew install git
+```
+
+---
+
+## 🐧 For Linux Users
+
+Git is usually pre-installed. Verify:
+```bash
+git --version
+```
+
+If not installed:
+```bash
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install git
+
+# Fedora
+sudo dnf install git
+
+# Arch
+sudo pacman -S git
+```
+
+---
 
 ## 🔧 Initial Setup
 

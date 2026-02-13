@@ -4,7 +4,13 @@
 
 ## 📚 Program Overview
 
-Welcome to the **QA Fundamentals Mentoring Program** - an 11-week journey to master QA processes, methodologies, testing types, and test design techniques. This program focuses on building **strong QA foundations** before diving into automation.
+**QA Fundamentals Mentoring Program** - 11 weeks of structured practice covering QA processes, testing methodologies, test design techniques, and automation basics.
+
+**🔍 Two-Phase Learning Design:**
+- **Weeks 1-5:** Research-focused (build self-sufficiency, sparse curriculum by design)
+- **Weeks 6-11:** Execution-focused (FAANG-level standards, comprehensive curriculum)
+
+*📖 See Week 1 tutorial for full explanation of the two-phase structure and why it's designed this way.*
 
 ### 🎯 Program Goals
 
@@ -19,18 +25,17 @@ By the end of this program, your mentee will be able to:
 
 ### 👤 Target Audience
 
-**Junior QA Engineers** who want to:
-- Build confidence in QA processes and methodologies
-- Master systematic testing approaches
-- Understand different testing types deeply
-- Create professional test artifacts
-- Prepare for mid-level or senior QA roles
+**Junior QA Engineers** who need:
+- Structured practice with QA processes
+- Systematic testing approaches
+- Hands-on experience with test design
+- Portfolio work examples
 
 ### ⏱️ Time Commitment
 
 - **Duration:** 11 weeks
-- **Weekly Time:** 8-10 hours per week
-- **Mentor Sessions:** 1 hour per week
+- **Weekly Time:** 10-12 hours per week
+- **Mentor Sessions:** 2-3 hours per week
 - **Self-Study:** 7-9 hours per week
 
 ---
@@ -290,18 +295,18 @@ Each week includes a checklist with:
 - ✅ BDD scenarios covering key flows
 - ✅ Python test data scripts working
 - ✅ Portfolio-ready GitHub repository
-- ✅ Confidence level 8+/10 for mid-level QA roles
 
 ---
 
 ## 🎯 After This Program
 
-Your mentee will be ready for:
-- **Mid-Level QA Engineer roles** with strong process knowledge
-- **Test Lead positions** in smaller teams
-- **Transition to test automation** with solid testing foundations
-- **Specialized QA tracks** (performance, security, accessibility)
-- **Certification exams** (ISTQB Advanced Level, CSTE)
+Your mentee will have:
+- **Systematic testing foundations** applicable to QA engineering roles
+- **Portfolio-ready work** demonstrating test design and execution skills
+- **Practical experience** with test planning, BDD, and automation basics
+- **Structured approach** to quality assurance work
+
+This program provides the fundamentals. Real-world application and continued practice are essential for role advancement.
 
 ### Recommended Next Steps (Post-Program)
 1. Complete ISTQB Advanced Level certification
@@ -341,7 +346,7 @@ Your mentee will be ready for:
 - 🏆 Week 7: Complete test plan created
 - 🏆 Week 8: 50 test cases milestone
 - 🏆 Week 10: First professional bug report
-- 🏆 Week 11: Program completion - Full QA portfolio ready!
+- 🏆 Week 11: Program completion
 
 ---
 
@@ -371,18 +376,16 @@ General questions about the program? Use the Question template.
 
 ## 🙏 Acknowledgments
 
-This program is designed for **practical, hands-on QA learning** focusing on:
+This program focuses on practical, hands-on QA learning:
 - Real-world testing processes
 - Industry-standard methodologies
 - Professional deliverables
 - Portfolio-building approach
 
-**Good luck on your QA journey! Let's build strong testing foundations together!** 🚀
-
 ---
 
 **Program Version:** 1.1 (Active Mentoring)
-**Last Updated:** November 2025
+**Last Updated:** February 2026
 **Content Status:** All 11 weeks complete with comprehensive tutorials, exercises, and resources
 **License:** MIT - See [LICENSE](LICENSE) file for details
 
@@ -409,5 +412,3 @@ This program is designed for **practical, hands-on QA learning** focusing on:
 - [Week 11: Python for Test Data & APIs](curriculum/week-11-python-basics/)
 
 ---
-
-**Let's transform QA skills systematically! 🎯**
