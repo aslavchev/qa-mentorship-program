@@ -1,5 +1,103 @@
 # Week 7: Test Planning & Strategy
 
+---
+
+## 🔄 Transition: From Test Design (Weeks 5-6) to Test Planning (Week 7)
+
+### What You've Done So Far:
+
+**Weeks 5-6: Test DESIGN**
+- ✅ Learned HOW to design individual test cases systematically
+- ✅ Techniques: EP, BVA, Decision Tables, Pairwise, Risk-Based
+- ✅ Focus: "How do I create good test cases?"
+
+**Think of it as:** Designing individual houses (architecture, materials, blueprints)
+
+---
+
+### What You'll Do This Week:
+
+**Week 7: Test PLANNING**
+- 🎯 Learn how to ORGANIZE 60+ test cases into a comprehensive test suite
+- 🎯 Create test STRATEGY (what to test when, in what order)
+- 🎯 Estimate resources (how long will this take? who does what?)
+- 🎯 Define risk-based execution plan (test critical features first)
+- 🎯 Set entry/exit criteria (when do we start? when do we stop?)
+
+**Think of it as:** City planning (where do all these houses go? in what order? what infrastructure?)
+
+---
+
+### The Progression:
+
+```
+Week 5-6: "I know how to design a test case" ✅
+           ↓
+Week 7:   "I know how to organize 60 test cases into a plan" 🎯
+           ↓
+Week 8:   "I know how to execute and document 60 test cases" 📋
+```
+
+---
+
+### Why This Matters:
+
+**Without test planning (what you did in weeks 5-6):**
+- You have 60 great test cases... in a random list
+- No one knows which tests are critical vs nice-to-have
+- No estimate of how long testing will take
+- No clear start/stop criteria
+- No way to communicate progress to stakeholders
+
+**With test planning (what you'll learn this week):**
+- 60 test cases organized by module, priority, risk
+- Clear execution order (smoke → critical → edge cases)
+- Resource estimates (8 hours for module A, 12 hours for module B)
+- Quality gates defined (95% pass rate before release)
+- Stakeholder communication ready (test summary report)
+
+---
+
+### Real-World Scenario:
+
+**Scenario:** Your team is releasing SauceDemo v2.0 in 2 weeks.
+
+**Without test planning:**
+- "Uh, we have 60 test cases. I guess we'll run them all?"
+- Starts with low-priority tests, runs out of time
+- Critical tests (login, checkout) not tested before release
+- Bug found in production 😞
+
+**With test planning (this week's skill):**
+- Test plan defines: Smoke tests (30 min) → Critical path (4 hours) → Full regression (12 hours)
+- Risk-based execution: Login and checkout tested first
+- Estimate: 16 hours total, need 2 QA engineers for 1 week
+- Quality gate: All S0/S1 tests pass, 90% overall pass rate
+- Bug found during testing, fixed before release ✅
+
+**Test planning is the difference between "testing" and "professional QA."**
+
+---
+
+### This Week's Deliverables:
+
+By end of week 7, you'll create:
+1. **Test Plan** - Comprehensive document with scope, approach, resources, schedule
+2. **Test Strategy** - High-level testing approach and techniques used
+3. **Risk Assessment** - Identified risks with likelihood/impact and mitigation
+4. **Resource Estimation** - Time and effort required per module
+5. **Entry/Exit Criteria** - When testing starts and when it's "done"
+
+**These are portfolio-ready artifacts** that demonstrate test lead capability.
+
+---
+
+### Let's Begin Week 7! 🚀
+
+Now that you understand the transition from test design → test planning, let's dive into how to create professional test plans...
+
+---
+
 ## 🎯 Learning Objectives
 - Understand the difference between test strategy and test plan
 - Create comprehensive test plans

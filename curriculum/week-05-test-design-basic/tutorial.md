@@ -201,6 +201,73 @@ Use multiple techniques together for comprehensive coverage:
 5. State transitions test workflows
 6. Combining techniques is powerful
 
+---
+
+## 💡 Looking Ahead: Test Design vs Test Documentation
+
+### What You've Learned This Week:
+This week you learned **test DESIGN techniques**:
+- Equivalence Partitioning (EP)
+- Boundary Value Analysis (BVA)
+- Decision Tables
+- State Transition Testing
+
+These are **thinking frameworks** - ways to systematically identify what to test.
+
+---
+
+### Coming Later: Test DOCUMENTATION Formats
+
+**Week 9** will teach you **test DOCUMENTATION formats** like BDD (Behavior-Driven Development) and Gherkin syntax.
+
+**The good news:** The techniques you're learning now will transfer directly:
+
+| What You Know Now (Week 5) | How It Becomes BDD (Week 9) |
+|----------------------------|------------------------------|
+| **Equivalence Partitioning** → Valid/Invalid classes | `Scenario Outline` with `Examples` table |
+| **Boundary Value Analysis** → Min/Max/Just Inside/Just Outside | `Examples` with boundary values |
+| **Decision Tables** → Input combinations | `Scenario Outline` with combination table |
+| **Test Steps** → Step 1, 2, 3... | `Given-When-Then` format |
+
+**Example Transformation:**
+
+**Traditional Test Case (Week 5 style):**
+```
+Test Case: Verify login with valid credentials
+Preconditions: User is on login page
+Steps:
+  1. Enter valid username
+  2. Enter valid password
+  3. Click Login button
+Expected: User is logged in and redirected to dashboard
+```
+
+**BDD/Gherkin (Week 9 style):**
+```gherkin
+Scenario: Successful login with valid credentials
+  Given the user is on the login page
+  When the user enters valid username "standard_user"
+  And the user enters valid password "secret_sauce"
+  And the user clicks the Login button
+  Then the user should be logged in
+  And the user should be redirected to the inventory page
+```
+
+**Same test. Different format.**
+
+---
+
+### Why Learn Traditional First, BDD Later?
+
+**Traditional format teaches you WHAT to test** (the thinking).
+**BDD format teaches you HOW to communicate tests** (the collaboration).
+
+Master the thinking first (weeks 5-6). Learn the communication format later (week 9).
+
+**For now:** Focus on designing good tests using EP, BVA, decision tables. The format will come naturally once you understand the substance.
+
+---
+
 ## 🎓 Further Reading
 - "A Practitioner's Guide to Software Test Design" by Lee Copeland
 - ISTQB Syllabus Chapter 4 (Test Design Techniques)

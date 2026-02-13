@@ -1016,6 +1016,143 @@ Apply all 5 techniques to SauceDemo:
 
 ---
 
+## 🤖 Looking Ahead: Manual vs Automated Testing
+
+### What You've Been Doing (Weeks 1-6):
+**Manual testing** - You design test cases, then execute them by hand:
+- Click through the UI
+- Verify results visually
+- Document findings
+
+This is essential for:
+- ✅ Exploratory testing (finding unexpected issues)
+- ✅ Usability assessment (is this intuitive?)
+- ✅ Ad-hoc verification (quick smoke tests)
+- ✅ New feature validation (first-time testing)
+
+---
+
+### What's Coming (Weeks 10-11):
+**Test automation** - You write code (Python/Selenium) to execute tests:
+- Script clicks and inputs
+- Assert expected results programmatically
+- Run repeatedly without human intervention
+
+This is essential for:
+- ✅ Regression testing (run same tests on every build)
+- ✅ Smoke tests (validate core functionality automatically)
+- ✅ Data-driven tests (same test, 100 different inputs)
+- ✅ CI/CD pipelines (tests run on every commit)
+
+---
+
+### The Decision Framework: When to Automate?
+
+**✅ Automate when:**
+- Test runs **frequently** (regression suite, smoke tests)
+- Test is **repetitive** (login 100 times with different users)
+- Test requires **precise data** (boundary values: 0, 1, 999, 1000)
+- Test is **stable** (feature won't change for months)
+- **ROI is positive** (time to automate < time saved from manual runs)
+
+**❌ Stay manual when:**
+- Test requires **human judgment** (usability, visual design)
+- Test **changes frequently** (new feature under development)
+- Test is **exploratory** (finding unknowns)
+- Test is **one-time** (ad-hoc verification)
+- **Automation cost > benefit** (takes 8 hours to automate a 5-minute test)
+
+---
+
+### Automation Pyramid (Industry Standard)
+
+```
+           /\
+          /  \        Few UI Tests (Slow, Brittle)
+         /____\
+        /      \
+       / API    \     More API Tests (Faster, Stable)
+      / Tests    \
+     /____________\
+    /              \
+   /  Unit Tests    \ Most Unit Tests (Fast, Reliable)
+  /__________________\
+```
+
+**Your focus in weeks 1-6:** Understanding what to test (test design).
+**Your focus in weeks 10-11:** How to automate what you designed (test implementation).
+
+---
+
+### Real-World Example: SauceDemo Test Suite
+
+From your Week 5-6 work, here's how tests would split:
+
+| Test Type | Manual or Automated? | Why |
+|-----------|---------------------|-----|
+| TC-LOGIN-001: Valid login | **Automate** | Runs on every build (smoke test) |
+| TC-LOGIN-010: SQL injection | **Automate** | Security test, run in CI/CD |
+| TC-PRODUCTS-002: Images displayed | **Manual** | Visual check, human judgment needed |
+| TC-CART-001: Add to cart | **Automate** | Core functionality, repeatable |
+| TC-CART-009: Cart calculation | **Automate** | Math validation, data-driven test |
+| Exploratory session | **Manual** | By definition exploratory |
+| TC-CHECKOUT-020: E2E flow | **Automate** | Regression test, smoke test |
+
+**Typical split:** 70% automated (regression/smoke), 30% manual (exploratory/usability)
+
+---
+
+### Tools You'll Learn (Week 10-11 Preview)
+
+**Python** - Programming language for test scripts
+**Selenium** - Automates web browsers
+**pytest** - Test framework for organizing and running tests
+**Faker** - Generates test data
+**requests** - Tests APIs
+
+**Example (Week 11 preview):**
+```python
+# Automated test case
+def test_login_with_valid_credentials():
+    driver.get("https://www.saucedemo.com")
+    driver.find_element(By.ID, "user-name").send_keys("standard_user")
+    driver.find_element(By.ID, "password").send_keys("secret_sauce")
+    driver.find_element(By.ID, "login-button").click()
+
+    assert "inventory.html" in driver.current_url
+    assert driver.find_element(By.CLASS_NAME, "title").text == "Products"
+```
+
+**Don't worry if this looks foreign now.** Week 10-11 will teach you step-by-step.
+
+---
+
+### The Bridge: From Manual Test Cases to Automated Scripts
+
+**Week 8:** You'll create 60+ manual test cases in structured format
+**Week 10-11:** You'll select 10-15 of those cases and automate them
+
+**The test design work you're doing now (weeks 5-6) is the foundation.**
+
+Automation doesn't replace test design - it implements it. You still need to know:
+- What to test (EP, BVA, decision tables)
+- How to structure tests (preconditions, steps, assertions)
+- What coverage means (requirements traceability)
+
+**Automation is just faster execution of well-designed tests.**
+
+---
+
+### For Now: Focus on Design
+
+**Weeks 1-6:** Master test design (manual execution is fine)
+**Weeks 7-9:** Scale up test design (60+ cases, BDD, Agile)
+**Weeks 10-11:** Learn automation (implement what you designed)
+
+**The progression makes sense:** Learn to design good tests first, automate them later.
+
+---
+
 **📚 Continue to: exercises.md → Complete 5 hands-on exercises using these techniques on SauceDemo**
 
 **⏭️ Next Week:** Test Planning & Strategy - Creating comprehensive test plans using everything learned so far
