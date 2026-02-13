@@ -1,3 +1,108 @@
+# 🎯 About This Program's Structure
+
+This 11-week QA Fundamentals program has **TWO intentional phases** designed to build different skillsets:
+
+---
+
+## Phase 1: Weeks 1-5 - "Learn to Learn" 🔍
+
+### What You'll Notice:
+- ✅ Curriculum provides core concepts and frameworks
+- ⚠️ Exercises are less prescriptive (fewer step-by-step instructions)
+- ⚠️ You'll need to research, Google, and figure things out
+- ⚠️ Templates and examples are minimal
+
+### Why This Design:
+**Real QA work involves incomplete requirements.** Product specs are vague. Documentation is outdated. Requirements change mid-sprint. These weeks build your **research and self-sufficiency skills**.
+
+If you have theoretical knowledge (ISTQB, CS degree, bootcamp) but lack hands-on practice, this phase helps you bridge theory to application **the way real QA work happens**.
+
+### Your Job in Weeks 1-5:
+- 🔍 Don't expect step-by-step instructions for every detail
+- 🔍 Google: "examples of decision tables for testing"
+- 🔍 Find test case templates online
+- 🔍 Ask yourself: "What would 'good' look like for this exercise?"
+- 🔍 Research best practices and industry standards
+
+**This is intentionally challenging.** The struggle builds skill. Stick with it.
+
+### Skills You're Building:
+- Self-sufficiency (figure things out independently)
+- Research ability (find answers when docs are incomplete)
+- Critical thinking (decide what "good enough" means)
+- Adaptability (work with ambiguity)
+
+---
+
+## Phase 2: Weeks 6-11 - "Learn to Execute" 🚀
+
+### What You'll Notice:
+- ✅ Curriculum becomes comprehensive and detailed
+- ✅ Exercises have specific deliverables ("write 60 test cases")
+- ✅ Clear templates, examples, and step-by-step guides provided
+- ✅ Standards are higher, expectations are explicit
+
+### Why This Design:
+**Once you've proven you can figure things out, we raise the bar.** These weeks simulate **FAANG-level expectations**: detailed requirements, professional output, high quality standards, portfolio-ready work.
+
+This is where companies assess: "Can you execute at scale?" Not just "can you write A test case" but "can you create a comprehensive test suite with 60+ cases, proper structure, and full traceability?"
+
+### Your Job in Weeks 6-11:
+- 📋 Follow detailed instructions carefully
+- 📋 Meet specific criteria (test case counts, formats, coverage targets)
+- 📋 Produce portfolio-ready, professional-quality work
+- 📋 Apply all the research skills you built in weeks 1-5
+
+**This is where you demonstrate readiness for mid-level QA roles.**
+
+### Skills You're Building:
+- Execution at scale (large test suites, comprehensive documentation)
+- Professional standards (industry-quality output)
+- Systematic thinking (structured approaches to complex problems)
+- Portfolio building (GitHub-ready work samples)
+
+---
+
+## The Progression is Intentional 📈
+
+```
+Weeks 1-5: Research → Figure Out → Apply
+Weeks 6-11: Execute → Deliver → Master
+```
+
+**Both phases are necessary.**
+
+- ❌ Don't skip weeks 1-5 thinking they're "less important"
+- ❌ Don't get frustrated if weeks 1-5 feel harder (that's the point)
+- ✅ Trust the process - the struggle in weeks 1-5 makes weeks 6-11 easier
+- ✅ By week 11, you'll have both self-sufficiency AND execution skills
+
+---
+
+## What to Expect Week by Week
+
+| Week | Phase | Style | What You'll Feel |
+|------|-------|-------|------------------|
+| 1-2 | Learn to Learn | Sparse | "I have to research a lot" |
+| 3-5 | Learn to Learn | Sparse | "Getting better at finding answers" |
+| **6** | **Transition** | **Comprehensive** | **"Oh, now it's detailed!"** |
+| 7-9 | Learn to Execute | Comprehensive | "Clear expectations, high bar" |
+| 10-11 | Learn to Execute | Comprehensive | "Portfolio-ready work" |
+
+---
+
+## For Mentors Using This Curriculum
+
+**If you're a mentor:** Explain this two-phase structure to your mentee upfront. It prevents early frustration and helps them understand why weeks 1-5 require more independent research.
+
+**If you're self-studying:** Don't interpret sparse curriculum as "low quality." It's intentional. Use it as practice for real-world QA where requirements are always incomplete.
+
+---
+
+**Ready? Let's begin Week 1!** 🚀
+
+---
+
 # Week 1: QA Foundations & SDLC
 
 ## 🎯 Learning Objectives
