@@ -1,5 +1,9 @@
 # 🎓 11-Week QA Fundamentals & Process Mastery Program
 
+**Organization:** [Mentor the Young](https://mentortheyoung.com)
+**Mentor:** [Alexander Slavchev](https://github.com/aslavchev)
+**Mentee:** [Kamen Asenov](https://github.com/kamenAsenov)
+
 ✅ **STATUS: COMPLETE** - All 11 weeks of tutorial content now available!
 
 ## 📚 Program Overview
@@ -384,8 +388,8 @@ This program focuses on practical, hands-on QA learning:
 
 ---
 
-**Program Version:** 1.1 (Active Mentoring)
-**Last Updated:** February 2026
+**Program Version:** 1.1 (Complete)
+**Last Updated:** March 2026
 **Content Status:** All 11 weeks complete with comprehensive tutorials, exercises, and resources
 **License:** MIT - See [LICENSE](LICENSE) file for details
 
